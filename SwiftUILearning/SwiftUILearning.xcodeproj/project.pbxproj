@@ -14,6 +14,7 @@
 		FF2AE1C32910F9E40078DD86 /* SwiftUILearningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2AE1C22910F9E40078DD86 /* SwiftUILearningTests.swift */; };
 		FF2AE1CD2910F9E40078DD86 /* SwiftUILearningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2AE1CC2910F9E40078DD86 /* SwiftUILearningUITests.swift */; };
 		FF2AE1CF2910F9E40078DD86 /* SwiftUILearningUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2AE1CE2910F9E40078DD86 /* SwiftUILearningUITestsLaunchTests.swift */; };
+		FFB473902924B1EF002AF69F /* DNSplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB4738F2924B1EF002AF69F /* DNSplashView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		FF2AE1C82910F9E40078DD86 /* SwiftUILearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUILearningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF2AE1CC2910F9E40078DD86 /* SwiftUILearningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningUITests.swift; sourceTree = "<group>"; };
 		FF2AE1CE2910F9E40078DD86 /* SwiftUILearningUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FFB4738F2924B1EF002AF69F /* DNSplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNSplashView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				FF2AE1B32910F9E20078DD86 /* ContentView.swift */,
 				FF2AE1B52910F9E30078DD86 /* Assets.xcassets */,
 				FF2AE1B72910F9E30078DD86 /* Preview Content */,
+				FFB4738F2924B1EF002AF69F /* DNSplashView.swift */,
 			);
 			path = SwiftUILearning;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF2AE1B42910F9E20078DD86 /* ContentView.swift in Sources */,
+				FFB473902924B1EF002AF69F /* DNSplashView.swift in Sources */,
 				FF2AE1B22910F9E20078DD86 /* SwiftUILearningApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
