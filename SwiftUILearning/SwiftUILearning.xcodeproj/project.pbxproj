@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E0306FC82927596500016A26 /* ScrollViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0306FC72927596500016A26 /* ScrollViewExample.swift */; };
+		E0306FCA29275F7800016A26 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0306FC929275F7800016A26 /* ImageLoader.swift */; };
+		E0306FCC2927A9FB00016A26 /* TabViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0306FCB2927A9FB00016A26 /* TabViewExample.swift */; };
 		FF2AE1B22910F9E20078DD86 /* SwiftUILearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2AE1B12910F9E20078DD86 /* SwiftUILearningApp.swift */; };
 		FF2AE1B42910F9E20078DD86 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2AE1B32910F9E20078DD86 /* ContentView.swift */; };
 		FF2AE1B62910F9E30078DD86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF2AE1B52910F9E30078DD86 /* Assets.xcassets */; };
@@ -39,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E0306FC72927596500016A26 /* ScrollViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewExample.swift; sourceTree = "<group>"; };
+		E0306FC929275F7800016A26 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		E0306FCB2927A9FB00016A26 /* TabViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewExample.swift; sourceTree = "<group>"; };
 		FF2AE1AE2910F9E20078DD86 /* SwiftUILearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUILearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF2AE1B12910F9E20078DD86 /* SwiftUILearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningApp.swift; sourceTree = "<group>"; };
 		FF2AE1B32910F9E20078DD86 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -113,6 +119,9 @@
 				FFB4739329263498002AF69F /* ListExample.swift */,
 				FFB4739529263802002AF69F /* EmojiData.swift */,
 				FFB4739729263B5F002AF69F /* DetailsView.swift */,
+				E0306FC72927596500016A26 /* ScrollViewExample.swift */,
+				E0306FC929275F7800016A26 /* ImageLoader.swift */,
+				E0306FCB2927A9FB00016A26 /* TabViewExample.swift */,
 			);
 			path = SwiftUILearning;
 			sourceTree = "<group>";
@@ -272,13 +281,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0306FC82927596500016A26 /* ScrollViewExample.swift in Sources */,
 				FF2AE1B42910F9E20078DD86 /* ContentView.swift in Sources */,
 				FFB4739829263B5F002AF69F /* DetailsView.swift in Sources */,
 				FFB47392292600B4002AF69F /* StatePropertiesView.swift in Sources */,
 				FFB473902924B1EF002AF69F /* DNSplashView.swift in Sources */,
+				E0306FCA29275F7800016A26 /* ImageLoader.swift in Sources */,
 				FF2AE1B22910F9E20078DD86 /* SwiftUILearningApp.swift in Sources */,
 				FFB4739629263802002AF69F /* EmojiData.swift in Sources */,
 				FFB4739429263498002AF69F /* ListExample.swift in Sources */,
+				E0306FCC2927A9FB00016A26 /* TabViewExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

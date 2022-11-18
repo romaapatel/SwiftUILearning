@@ -8,20 +8,33 @@
 import SwiftUI
 
 struct ListExample: View {
-
+    
+    @State var isModal: Bool = false
+    
     var body: some View {
-        NavigationView {
-            List(emojiList) { emojiItem in
-                NavigationLink(destination: DetailsView(emojiItem: emojiItem)) {
-                    HStack {
-                        EmojiCircleView(emojiItem: emojiItem)
-                        Text(emojiItem.name)
-                            .font(.headline)
-                            .padding(.leading, 10)
-                    } .padding(7)
+        VStack {
+            NavigationView {
+                List(emojiList) { emojiItem in
+                    NavigationLink(destination: DetailsView(emojiItem: emojiItem)) {
+                        HStack {
+                            EmojiCircleView(emojiItem: emojiItem)
+                            Text(emojiItem.name)
+                                .font(.headline)
+                                .padding(.leading, 10)
+                        } .padding(7)
+                    }
                 }
+                .navigationBarTitle("Emoji")
             }
-            .navigationBarTitle("Emoji")
+            
+            Button ("Go to next Page") {
+                self.isModal = true
+            } .filledBackground(color: Color("TextColor"), textColor: Color("ButtonBackground"))
+                .padding()
+                .fullScreenCover(isPresented: $isModal, content: {
+                    ScrollViewExample()
+                })
+            
         }
     }
 }
@@ -33,19 +46,19 @@ struct ListExample_Previews: PreviewProvider {
 }
 
 struct EmojiCircleView: View {
-  let emojiItem: EmojiItem
-
-  var body: some View {
-    ZStack {
-      Text(emojiItem.emoji)
-        .shadow(radius: 3)
-        .font(.largeTitle)
-        .frame(width: 45, height: 45)
-        .overlay(
-          Circle().stroke(Color.purple, lineWidth: 3)
-        )
+    let emojiItem: EmojiItem
+    
+    var body: some View {
+        ZStack {
+            Text(emojiItem.emoji)
+                .shadow(radius: 3)
+                .font(.largeTitle)
+                .frame(width: 45, height: 45)
+                .overlay(
+                    Circle().stroke(Color.purple, lineWidth: 3)
+                )
+        }
     }
-  }
 }
 
 struct EmojiItem: Identifiable {
