@@ -10,19 +10,19 @@ import SwiftUI
 struct TabViewExample: View {
     var body: some View {
         TabView {
-            Text ("homw view ")
+            ScrollViewExample()
                 .tabItem {
                     Image(systemName: "house.fill")
                     Text("Home")
                     
                 }
-            Text ("Search View")
+            DNSplashView()
                 .tabItem {
                     Image(systemName: "magnifyingglass")
                     Text("Search")
                 }
             
-            Text("Photo view")
+            ListExample()
                 .tabItem {
                     Image(systemName: "photo.fill")
                     Text("Photo")
